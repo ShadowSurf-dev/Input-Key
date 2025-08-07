@@ -21,6 +21,7 @@ Follow these steps to install the extension manually:
 > manifest.json
 > background.js
 > recorder.js
+> icon.png
 > ```
 
 ---
