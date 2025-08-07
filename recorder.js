@@ -1,3 +1,5 @@
+// Hi TWI if ur seeing this
+
 const startBtn = document.getElementById('startBtn');
 const stopBtn = document.getElementById('stopBtn');
 const pauseBtn = document.getElementById('pauseBtn');
@@ -94,4 +96,5 @@ pauseBtn.onclick = () => {
     recorder.resume();
     pauseBtn.textContent = '⏸️ Pause';
   }
+
 };
