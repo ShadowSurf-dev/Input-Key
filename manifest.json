@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Input Key Recorder",
+  "version": "1.0",
+  "description": "Displays arrow key inputs (and more) when the extension is clicked.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Click to run input recorder"
+  }
+}
